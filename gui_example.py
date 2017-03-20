@@ -13,8 +13,7 @@ last edited: January 2015
 """
 
 import sys
-from PyQt5.QtWidgets import (QWidget, QToolTip,
-                             QPushButton, QApplication)
+from PyQt5.QtWidgets import (QWidget, QToolTip, QPushButton, QApplication)
 from PyQt5.QtGui import QFont
 
 
@@ -34,8 +33,8 @@ class Example(QWidget):
         btn.resize(btn.sizeHint())
         btn.move(50, 50)
 
-        self.setGeometry(300, 300, 300, 200)
-        self.setWindowTitle('Tooltips')
+        self.setGeometry(600, 600, 600, 400)
+        self.setWindowTitle('File Download Application')
         self.show()
 
 
